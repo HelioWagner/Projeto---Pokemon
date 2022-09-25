@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Projeto Pokemon</title>
+</head>
+<body>
+    <header>
+        <h1>Desafio do Pokemon</h1>
+        <br> 
+        <p> Com a API: https://pokeapi.co/
+            Ao clicar no botão, os dados devem ser buscados na API acima e mostrados na tela.
+            Não se preocupe em seguir exatamente a UI abaixo, exercite HTML, CSS e JS
+            Consulte o material e o professor caso tenha alguma dificuldade!
+            Cor de fundo: #012043</p>
+        <div class="container_logo">
+            <img class="cabecalho_logo" src="img/Target.jpg" alt="Logo empresa">
+        </div> 
+    </header>
+
+    <main>        
+        <div class="container busca-container">
+            <input type="text" id="identificador">            
+            <button id="botao_buscar" class="botao_buscar">Buscar</button>
+            <button id="botao_limpar" class="botao_buscar">Limpar Buscar</button>
+        </div>                
+        <div class="container resultado-container">
+            <div class="resultado-imagem">  
+               <img id="imagemPokemon" src="" alt="">
+            </div>   
+            <div class="resultado_nome">
+                <span id="resultado_nome"></span>
+            </div>              
+            <div class="container_type">
+                <span id="container_type_um"></span>
+            </div> 
+            <div class="container_type_dois">
+                <span id="container_type_dois"></span>
+            </div> 
+
+        </div>
+    </main>
+
+</body>
+</html>

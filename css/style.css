@@ -1,0 +1,112 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #012043;
+    color: white;
+}
+
+header > h1 {
+        text-align: center;
+        background-color: #012043;
+        
+}
+
+header > p {
+    max-width: 100ch;
+    margin: auto;
+    width: 50%;
+}
+
+.container_logo {
+    background-color: white;
+    display: flex;
+    align-content: center;
+}
+.cabecalho_logo{
+       height: 80px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+main {
+   padding: 10px;
+}
+
+body {
+    background-color: #012043;
+ }
+
+
+.container {
+    background-color: rgb(245, 89, 89);
+    border: solid black 2px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0px auto;
+    border-radius: 15px;
+}
+
+.busca-container > input {   
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.busca-container > button {   
+    padding: 5px 25px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 7px;
+}
+
+.botao_buscar {
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.resultado-container {
+    margin-top: 20px;
+    display: none;
+}  
+
+.resultado-imagem {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 40px;
+    display: block;    
+} 
+
+.resultado_nome{
+    padding: 10px;
+    font-style: bold;
+    color: white;
+    font-size: 30px;
+
+}
+.container_type {
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container_type_dois {
+    display: inline-block;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(112, 10, 228);
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
